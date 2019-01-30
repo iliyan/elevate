@@ -1,4 +1,3 @@
-:: Modeled upon https://ss64.com/nt/syntax-elevate.html
 :: Check if running As Admin (Elevated) using a known Admin-only command
 @echo off
 fsutil dirty query %SystemDrive% >nul
